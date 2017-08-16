@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    Name="Profile Component"
+    xtype="dialog">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <panels jcr:primaryType="cq:TabPanel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <titles
+                    jcr:primaryType="cq:Panel"
+                    title="Profile Component Config">
+                    <items jcr:primaryType="cq:WidgetCollection">
+                        <image
+                            jcr:primaryType="cq:Widget"
+                            cropParameter="./imageCrop"
+                            ddGroups="[media]"
+                            fieldLabel="Image"
+                            fileNameParameter="./fileName"
+                            fileReferenceParameter="./fileReference"
+                            height="150"
+                            name="./file"
+                            rotateParameter="./imageRotate"
+                            title="Image"
+                            width="200"
+                            xtype="html5smartimage"/>
+                        <fullname
+                            jcr:primaryType="nt:unstructured"
+                            fieldDescription="Enter Employee Full Name"
+                            fieldLabel="Full Name"
+                            name="./fullNameTitle"
+                            xtype="textfield"/>
+                        <EmployeeID
+                            jcr:primaryType="cq:Widget"
+                            fieldDescription="Enter Employee Id"
+                            fieldLable="Employee Id"
+                            name="./number"
+                            required="{Boolean}true"
+                            xtype="numberfield&#xa;"/>
+                        <departmentname
+                            jcr:primaryType="cq:Widget"
+                            fieldName="Description"
+                            name="./description"
+                            xtype="textfield"/>
+                        <DescriptionofEmployee
+                            jcr:primaryType="cq:Widget"
+                            fieldLable="Description of Employee"
+                            name="./paragraph"
+                            required="{Boolean}true"
+                            xtype="textfield"/>
+                    </items>
+                </titles>
+            </items>
+        </panels>
+    </items>
+</jcr:root>

@@ -1,0 +1,22 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.all @ categories='demo.pagelisting'}"/>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+            <div data-sly-use.pages="com.aem.community.core.models.PageListingModel">
+                <h1>${pages.sectionTitle}</h1>
+                <ul data-sly-list=${pages.pageList}>
+                    <li>
+                        <a href="${item.url}">
+                            <h4>Title :: ${item.title}</h4>
+                        </a>
+                        <p>Description :: ${item.description}</p>
+                        <p>Subtitle :: ${item.subTitle}</p>
+                    </li>
+                </ul>
+            </div>
+		</div>
+	</div>
+</div>
+
+
