@@ -1,2 +1,2 @@
-# BootstrapProject
+# AEM Project
 Basic GitHub
