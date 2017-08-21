@@ -1,0 +1,489 @@
+/*body {*/
+    /*background: #F1EEE3 !important;*/
+/*}*/
+/*.navbar {*/
+    /*background: #ffffff;*/
+/*}*/
+/*.navbar-right {*/
+    /*background: #ffffff;*/
+    /*height: 75px;*/
+/*}*/
+/*.navbar-header {*/
+    /*background: #ffffff;*/
+    /*height: 100px;*/
+/*}*/
+
+.logo {
+    height: 100px;
+}
+#userEdit {
+    #background-color: burlywood;
+}
+h3 {
+    text-align: center;
+    #background-color: darkgray;
+}
+.onStep {
+    background-color: #dde2c1;
+}
+.offStep {
+    background-color: #849621;
+}
+
+.req-field-tag {
+    color: #a94442;
+    font-size: 20px;
+}
+.instructionsStyle {
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgray;
+}
+.processing {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.centeredtext {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formError .formErrorContent {
+    padding: 3px 3px 3px 3px;
+    background: #F1EEE3;
+    font-size: 14px;
+    color: #a94442;
+    border: none;
+}
+.validate-error {
+    border: 1px solid #a94442;
+    padding: 1px 1px 1px 1px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px rgba(169, 68, 66, 0.6);
+}
+#govHeader {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align: right;
+    font-size: x-small;
+    font-weight:bold;
+    margin-top:4px;
+    margin-bottom:4px;
+    margin-right:8px;
+    color:#903f17;
+}
+.search {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align: right;
+    font-size: x-small;
+    font-weight: bold;
+    color: #849621;
+}
+.searchbox {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    font-weight: normal;
+    color: #000000;
+}
+A.headerLink:link, A.headerLink:visited, A.headerLink:active {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    color: #849621;
+    text-decoration: none;
+    font-weight: bold;
+}
+.workflowDocGrid {
+    width: 100%;
+    height: 150px;
+    background-color: snow;
+}
+.userGrid {
+    width: 100%;
+    /*height: 500px;*/
+    background-color: snow;
+}
+.fundsGrid {
+    width: auto;
+    height: auto;
+    background-color: snow;
+}
+.workflowDetailGrid {
+    height: 150px;
+    background-color: snow;
+}
+
+.ui-grid-scrollbar-placeholder {
+    background-color: #f1f1f1 !important;
+}
+/*Prevent sort number from showing up on the column */
+.ui-grid-sort-priority-number { font-size: 0; }
+
+/*.bs-grid-border {*/
+    /*border-style: groove;*/
+/*}*/
+.btn-READY {
+    background-color: #5cb85c !important;
+}
+
+.user-error_message {
+    text-align: center;
+}
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+.help-block {
+    font-size: 12px !important;
+}
+
+.zip4-label {
+    width: 4px !important;
+    padding-right: 1px !important;
+    padding-left: 1px !important;
+}
+
+#imageSpinner{
+    position: absolute;
+    padding-top: 150px;
+    z-index: 999;
+    display: block;
+    left: 40%;
+}
+.loading-icon {
+    z-index: 999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -24px;
+    margin-left: -24px;
+}
+/*To add space at the top of rows*/
+.top-buffer {
+    margin-top: 10px;
+}
+
+.inline-padding {
+    margin-bottom: 10px !important;
+}
+
+.col-label-scrunch {
+    width: 6% !important
+}
+
+esri-map, .map, .esriMapContainer{
+    min-height: 700px !important;
+}
+
+.ravicheckbox[type="text"] {
+    border:  solid ;
+    width: 280px;
+  }
+.tododesc{
+    width:540px;
+    height: 84px;
+    margin:auto;
+    padding:10px;
+    border:  solid ;
+
+  }
+ .selected {
+    background-color: #B0C4DE;
+  }
+ select{
+    border:  solid ;
+    width: 240px;
+   height: 34px;
+  }
+ .table-hover tbody tr:hover td {
+    background: #b0c4de;
+  }
+
+.financeicon-bar {
+    width: 120px;
+    background-color: #ffe866;
+}
+
+.financeicon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: black;
+    font-size: 36px;
+}
+
+.financeicon-bar a span{
+  color:black;
+  font-size:12px;
+  padding:5px 0 10px 0;
+  display:block;
+  font-family:'Josefin Sans';
+  letter-spacing:1px;
+}
+
+
+.financeicon-bar a:hover {
+    background-color:#FFD700;
+}
+
+.financeicon-bar .active {
+    background-color: #FFD700 !important;
+}
+.modal-dialog {
+    width:1160px;
+}
+.selected {
+    background-color: #B0C4DE;
+  }
+.select{
+    border:  solid ;
+    width: 240px;
+   height: 34px;
+  }
+.table-hover tbody tr:hover td {
+    background: #b0c4de;
+    }
+.raviicon-bar {
+    width: 140px;
+    background-color:#FFA500;
+}
+
+.raviicon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.raviicon-bar a span{
+  color:white;
+  font-size:16px;
+  padding:5px 0 10px 0;
+  display:block;
+  font-family:'Josefin Sans';
+  letter-spacing:1px;
+}
+
+
+.raviicon-bar a:hover {
+    background-color: #1E90FF;
+}
+.jumbotron h3 {
+  color: #1E90FF;
+}
+.grantbutton {
+  background-color: #75a0f0;
+  color: white;
+  cursor: pointer;
+  border-radius:8px;
+}
+.glyphicon-chevron-right {
+  color:black;
+
+}
+.glyphicon-plus {
+  color:black;
+
+}
+.glyphicon-ban-circle {
+    color:black;
+}
+<<<<<<< project.css
+/*farm portal styles*/
+.farm-bar{
+    background-color: #2cab2c;
+}
+.farm-bar a{
+    color: white;
+}
+.farm-bar a span{
+    color: white;
+}
+.farm-bar a:hover, .farm-bar a.active {
+    background-color: #43FF33;
+}
+.active {
+    background-color: #2CAB2C !important;
+}
+.farmicon-bar {
+    width: 140px;
+    background-color: #11e033;
+}
+.farmicon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+.farmicon-bar a span{
+  color:black;
+  font-size:16px;
+  padding:5px 0 10px 0;
+  display:block;
+  font-family:'Josefin Sans';
+  letter-spacing:1px;
+}
+=======
+>>>>>>> 1.13
+.application-bar{
+    background-color: orange;
+}
+.application-bar a{
+    color: white;
+}
+.application-bar a span{
+    color: white;
+}
+.application-bar a:hover {
+    background-color: #48D1CC;
+}
+
+
+.showOnClick {
+    font-size: smaller;
+    position: absolute;
+    z-index: 9999;
+}
+
+.section_help {
+    font-size: smaller;
+}
+
+.dependentQuestion {
+    background: #eee;
+    float: left;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.questionFields.required-true label.control-label:after {
+    content: "*";
+    padding-left: 5px;
+    color: #a94442;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+.required-true h4:after {
+    content: "";
+    padding-left: 5px;
+    color: #a94442;
+    font-size: xx-large;
+    line-height: 15px;
+}
+
+input.inputError{
+    border-color: #a94442;
+}
+
+input.inputError:focus {
+    border-color: #a94442;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 0, 0, 0.6);
+}
+
+.sectionDisabled{
+    pointer-events: none;
+}
+
+.form-control.disabled-false {
+    pointer-events: none;
+    background: #eee;
+}
+
+span.inputPrefix {
+    position: absolute;
+    background: #eee;
+    height: 32px;
+    border-right: 1px solid #aaa;
+    padding: 4px 6px;
+    left: 1px;
+    top: 1px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+input#phone, input#fax {
+    padding-left: 34px;
+}
+
+#applicationFormDIV .panel-heading{
+    cursor: pointer;
+}
+
+#applicationFormDIV, #applicationInfoDIV {
+    max-height: 92vh;
+    overflow: auto;
+}
+
+.appInfo h3{
+    text-align: left;
+}
+
+body{
+    padding-bottom: 20px;
+}
+.application-bar.appMenu {
+    background-color: #849621;
+    width: 100%;
+    border-radius: 4px;
+    border: 5px solid #617106;
+}
+
+.application-bar.appMenu a.selectLi {
+    background-color: #48D1CC;
+}
+
+.application-bar.appMenu a {
+    box-shadow: 0px 1px 2px #eee;
+}
+.icon-bar {
+    width: 140px;
+    background-color: #ffe866;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: black;
+    font-size: 36px;
+}
+
+.icon-bar a span{
+  color:black;
+  font-size:16px;
+  padding:5px 0 10px 0;
+  display:block;
+  font-family:'Josefin Sans';
+  letter-spacing:1px;
+}
+
+.raviedit{
+
+	background-color:	#B0C4DE;
+}
+
+.notes-and-documents .fa{
+    margin: 3px 7px;
+    cursor: pointer;
+
+}
+
+.notes-and-documents .notes{
+    width: 100%;
+    border:solid 1px #dddddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom : 10px;
+}
+
+.notes-and-documents .update-details{
+    color: grey;
+    font-size: 11px;
+    margin-top: 3px;
+}
