@@ -1,0 +1,270 @@
+{
+            "basemapLayers": [
+                    {
+                      "name": "njcolor",
+                      "urls": ["http://geodatatest.state.nj.us/arcgis/rest/services/Basemap/Color_NJ/MapServer"],
+                      "title": "NJ Color",
+                      "thumbnailurl": ""
+                    },
+                    {
+                      "name": "ltgraynj",
+                      "urls": ["http://geodatatest.state.nj.us/arcgis/rest/services/Basemap/LtGray_NJ/MapServer"],
+                      "title": "NJ Gray",
+                      "thumbnailurl": ""
+                    },
+                    { "layertype": "tileservice", "layername": "BaseMap", "layertitle": "Base Map", "layerurl": "arcgis/rest/services/Basemap/Color_NJ/MapServer" },
+                    { "layertype": "wms", "layername": "Natural2015", "layertitle": "2015 Natural", "layerurl": "imagerywms/Natural2015" },
+                    { "layertype": "wms", "layername": "Infrared2015", "layertitle": "2015 Infrared", "layerurl": "imagerywms/Infrared2015" },
+                    { "layertype": "wms", "layername": "Natural2013", "layertitle": "2013 Infrared", "layerurl": "imagerywms/Natural2013" },
+                    { "layertype": "wms", "layername": "Natural2012", "layertitle": "2012 Natural", "layerurl": "imagerywms/Natural2012" },
+                    { "layertype": "wms", "layername": "Infrared2012", "layertitle": "2012 Infrared", "layerurl": "imagerywms/Infrared2012" },
+                    { "layertype": "wms", "layername": "Natural2010", "layertitle": "2010 Natural", "layerurl": "imagerywms/Natural2010" },
+                    { "layertype": "wms", "layername": "Natural2007", "layertitle": "2007 Natural", "layerurl": "imagerywms/Natural2007" },
+                    { "layertype": "wms", "layername": "Infrared2007", "layertitle": "2007 Infrared", "layerurl": "imagerywms/Infrared2007" },
+                    { "layertype": "wms", "layername": "Natural2006", "layertitle": "2006 Natural", "layerurl": "imagerywms/Natural2006" },
+                    { "layertype": "wms", "layername": "Infrared2002", "layertitle": "2002 Infrared", "layerurl": "imagerywms/Infrared2002" },
+                    { "layertype": "wms", "layername": "Infrared1995", "layertitle": "1995 Infrared", "layerurl": "imagerywms/Infrared1995" },
+                    { "layertype": "wms", "layername": "ColorTopo24K", "layertitle": "Color Topo 1:24K", "layerurl": "imagerywms/ColorTopo24K" },
+                    { "layertype": "wms", "layername": "Topo100K", "layertitle": "Topo 1:100K", "layerurl": "imagerywms/Topo100K" },
+                    { "layertype": "wms", "layername": "Topo24K", "layertitle": "Topo 1:24K", "layerurl": "imagerywms/Topo24K" },
+                    { "layertype": "wms", "layername": "BlackWhite1930", "layertitle": "1930 Black & White", "layerurl": "imagerywms/BlackWhite1930" },
+
+            ],
+
+
+            "referenceLayers": {
+                "base_url": "arcgis/rest/services/Applications/AG_SADC_eFarms_Reference/MapServer",
+                "layers": {
+                            "Parcels Data (Block and Lot)": {
+                                "service_url": "arcgis/rest/services/Applications/AG_SADC_eFarms_Reference/MapServer",
+                                "description": "This spatial layer is a composite of tax parcel polygons, edgematched across most municipal boundaries. It serves as one of the statewide framework GIS data sets for New Jersey. It is compatible with the New Jersey Department of the Treasury MOD-IV system currently used by Tax Assessors.The composite is created from component data sets from counties and the City of Newark. Stewardship and maintenance of the data will continue to be the purview of county and municipal governments, but the statewide composite will be maintained by the NJ Office of Information Technology (NJOIT), Office of Geographic Information Systems (OGIS).",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=EC181B3D-4D15-11E1-A2E4-0003BA2C919E",
+                                "id": 0,
+                                "lyr_id":"parcel_ref"
+                            },
+                            "SADC Preserved Farms": {
+                                "description": "",
+                                "njgin_url": "",
+                                "id": 1,
+                                "lyr_id":"sadc_farms"
+                            },
+                            "SADC Agricultural Development Areas": {
+                                "description": "",
+                                "njgin_url": "",
+                                "id": 2,
+                                "lyr_id":"sadc_ada"
+                            },
+                            "Open Space (County)": {
+                                "description": "New Jersey open space and recreation areas that are either owned in fee simple interest by a county or are managed by a county but owned in fee by another governmental agency or nonprofit. These open space lands have either received funding through the Green Acres Local Assistance Program or are listed on a Green Acres approved Recreation and Open Space Inventory (ROSI). Types of open space property in this data layer include parks, conservation areas, preserves, historic sites, recreational fields, beaches, etc. The data was derived from a variety of mapped sources which vary in scale and level of accuracy. These sources are inclusive of but not exclusive of tax maps, surveys, deeds, digital aerial photography, orthophoto quad maps, quarter quadrangle maps as well as USGS topographic maps. Due to the variety of these mapped sources as well as the methods of data capture which is described in Process Step 1, this data set is limited in its ability to portray all open space lands accurately, particularly the parcels purchased prior to 1995.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=8CDD73DA-1C41-11E1-8EB4-0003BA2C919E",
+                                "id": 3,
+                                "lyr_id":"os_county"
+                            },
+                            "Open Space (State)": {
+                                "description": "Open space and recreation areas owned in fee simple interest by the State of New Jersey Department of Environmental Protection (NJDEP). Types of property in this data layer include parcels such as parks, forests, historic sites, natural areas and wildlife management areas. The data was derived from a variety of source maps including tax maps, surveys and even hand-drafted boundary lines on USGS topographic maps. These source materials vary in scale and level of accuracy. Due to the varied mapped sources and methods of data capture, this data set is limited in its ability to portray all open space lands accurately, particularly the parcels purchased prior to 1991.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=23DF13EA-222B-11DF-A53E-0003BA2C919E",
+                                "id": 4,
+                                "lyr_id":"os_state"
+                            },
+                            "Land Use 2012": {
+                                "description": "Land Use/Landcover was delineated through interpretation of 2012 aerial photography and classified into six general categories and numerous subcategories. It was updated from delineations interpreted from 1995/97, 2002, and 2007 aerial photography.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=E389A6C8-CD7A-4EB1-80E5-ABB5A8738D13",
+                                "id": 5,
+                                "lyr_id":"landuse_2012"
+                            },
+                            "Soils (SSURGO)": {
+                                "description": "This data set is a digital soil survey and generally is the most detailed level of soil geographic data developed by the National Resources Conservation Service (NRCS) National Cooperative Soil Survey. The soil map units are linked to attributes from the National Soil Information System relational database, which gives the proportionate extent of the component soils and their properties.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=33F91F5D-B56B-40B5-BFAF-1678B0ABD573 ",
+                                "id": 6,
+                                "lyr_id":"ssurgo_soils"
+                            },
+                            "Wetlands (2012)": {
+                                "description": "The wetlands polygons included in this data set are extracted from the Land Use 2012 layer. Displayed are all polygons that have a TYPE12 code of WETLANDS. While these wetland delineations are not regulatory lines, they represent important resource data in identifying potential wetland areas.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=F11402DA-754F-4798-9BE6-7C5FB908D414",
+                                "id": 7,
+                                "lyr_id":"wetlands_2012"
+                            },
+                            "Tidelands": {
+                                "description": "The Tidelands claims line depicts natural waterways now or formerly tide-flowed at mean high water. Since the mean high water line may change because of rises in sea level, the line does not represent the current mean high water line. Rather it depicts the mean high water line at the time of mapping and the historic mean high water line predating artificial alterations.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=B924EC0C-2230-11DF-A53E-0003BA2C919E",
+                                "id": 8,
+                                "lyr_id":"tidelands"
+                            },
+                            "Streams": {
+                                "description": "The data set will provide stream information for regulators, planners, and others interested in hydrography data.The use of the NHD data layers in hydrologic analyses will provide a means of monitoring the health of the citizens and ecosystems of New Jersey through the use of diverse applications.This data set is intended to serve as a resource for analysis rather than regulatory delineations. The NJDEP may change the line work based on more in depth analysis and field inspection for regulatory purposes.NJDEP/BGIS is a stewardship partner with USGS in the development of Local resolution data which is NHD compliant.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=52F12A9C-4A83-11E0-902B-0003BA02A824",
+                                "id": 9,
+                                "lyr_id":"streams"
+                            },
+                            "Water Bodies": {
+                                "description": "The data set will provide Waterbody information for regulators, planners, and others interested in hydrography data.The use of the NHD data layers in hydrologic analyses will provide a means of monitoring the health of the citizens and ecosystems of New Jersey through the use of diverse applications.This data set is intended to serve as a resource for analysis rather than regulatory delineations. The NJDEP may change the line work based on more in depth analysis and field inspection for regulatory purposes.NJDEP/BGIS is a stewardship partner with USGS in the development of Local resolution data which is NHD compliant.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=6B7BF18C-4A83-11E0-902B-0003BA02A824",
+                                "id": 10,
+                                "lyr_id":"water_bodies"
+                            },
+                            "Surface Water Quality Classification": {
+                                "description": "This data is a digital representation of New Jersey's Surface Water Quality Standards in accordance with 'Surface Water Quality Standards for New Jersey Waters' as designated in N.J.A.C. 7:9 B. The Surface Water Quality Standards (SWQS) establish the designated uses to be achieved and specify the water quality (criteria) necessary to protect the State's waters. Designated uses include potable water, propagation of fish and wildlife, recreation, agricultural and industrial supplies, and navigation. ",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=6094723F-2230-11DF-A53E-0003BA2C919E",
+                                "id": 11,
+                                "lyr_id":"swqc"
+                            },
+                            "CAFRA": {
+                                "description": "This data set is a graphical representation of the Coastal Areas Facilities Review Act (CAFRA) boundary, which legislates land use within the coastal area. This boundary was dissolved from the Coastal Planning Areas in New Jersey data set.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=6B07E66C-221C-11DF-AF15-0003BA02A824",
+                                "id": 12,
+                                "lyr_id":"cafra"
+                            },
+                            "Sewer Service Areas": {
+                                "description": "The SSA mapping shows the planned method of wastewater disposal for specific areas, i.e. whether the wastewater will be collected to a regional treatment facility or treated on site and disposed of through a Surface Water (SW) discharge or a groundwater (GW) discharge. Areas not specifically mapped represent either water features where no construction will occur or land areas that default to individual subsurface disposal systems discharging less than 2,000 gallons/day (gpd) where the site conditions and existing regulations allow. ",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=8B579703-35AB-4C4D-9E9B-4EF41A0C8FBC",
+                                "id": 13,
+                                "lyr_id":"sewer_service"
+                            },
+                            "Purveyor": {
+                                "description": "This is a graphical representation of the 1998 Public Community Water Purveyor Service Areas. Water purveyors are regulated by the NJDEP Bureau of Safe Drinking Water, under the Safe Drinking Water Act. Public Community Water Purveyors are systems that pipe water for human consumption to at least 15 service connections used year-round, or one that regularly serves at least 25 year-round residents. Public purveyors can be government agencies, private companies, or quasi-government groups. The boundaries mapped are those of the actual water delivery or service area. Franchise areas are not depicted (areas with legal rights for future service once developed). Water sources (wells or surface water intakes) are often located outside the delivery area boundaries.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=7E8B70FE-2231-11DF-A53E-0003BA2C919E",
+                                "id": 14,
+                                "lyr_id":"purveyor"
+                            },
+                            "Known Contaminated Sites List": {
+                                "description": "The Known Contaminated Sites List (KCSNJ) for New Jersey (Non-Homeowner) are those non-homeowner sites and properties within the state where contamination of soil or ground water has been confirmed at levels equal to or greater than applicable standards. This list of Known Contaminated Sites may include sites where remediation is either currently under way, required but not yet initiated or has been completed.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=BE15BFC7-0060-4046-9689-F65FFFBBAC49",
+                                "id": 15,
+                                "lyr_id":"cont_sites"
+                            },
+                            "Groundwater Contamination Areas (CKE)": {
+                                "description": "This data layer contains information about areas in the state which are specified as the Currently Known Extent (CKE) of ground water pollution. CKEs are geographically defined areas within which the local ground water resources are known to be compromised because the water quality exceeds drinking water and ground water quality standards for specific contaminants.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=090AF54A-2220-11DF-AF15-0003BA02A824",
+                                "id": 16,
+                                "lyr_id":"cont_areas_cke"
+                            },
+                            "Groundwater Contamination Areas (CEA)": {
+                                "description": "This data identifies those sites where groundwater contamination has been identified and, where appropriate, the NJDEP has established a Classification Exception Area (CEA) in accordance with N.J.A.C. 7:9-1.6 and 1.9(b). CEAs are institutional controls in geographically defined areas within which the New Jersey Ground Water Quality Standards (NJGWQS) for specific contaminants have been exceeded. ",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=9AD29BFA-221C-11DF-AF15-0003BA02A824",
+                                "id": 17,
+                                "lyr_id":"cont_areas_cea"
+                            },
+                            "Deed Notice Areas": {
+                                "description": "This data layer identifies those Known Contaminates Sites (KCS) or sites on Site Remediation Programs (SRP) Comprehensive Site List (CSL) that have been assigned a Deed Notice. A deed notice is described by NJ State Legislature (NJSA 58:10B-13a) as a ...notice to inform prospective holders of an interest in the property that contamination exists on the property at a level that may statutorily restrict certain uses of, or access to, all or part of that property, a delineation of those restrictions, a description of all specific engineering or institutional controls at the property that exist and that shall be maintained in order to prevent exposure to contaminants remaining on the property, and the written consent to the notice by the owner of the property.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=CDE7D486-2220-11DF-AF15-0003BA02A824",
+                                "id": 18,
+                                "lyr_id":"deed_notice_areas"
+                            },
+                            "Sand, Gravel and Rock Surficial Mining Operations": {
+                                "description": "Point locations of selected sand, gravel and rock surficial mining operations in New Jersey.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=BD80C69A-222E-11DF-A53E-0003BA2C919E",
+                                "id": 19,
+                                "lyr_id":"mining_ops"
+                            },
+                            "Abandoned Mines": {
+                                "description": "Locations of abandoned mines",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=C25566B0-0D17-11DF-8272-0003BA2C919E",
+                                "id": 20,
+                                "lyr_id":"aband_mines"
+                            },
+                            "State Plan Centers": {
+                                "description": "Boundaries of Designated and Proposed Centers of the NJ State Development and Redevelopment Plan (NJSDRP). Centers are the NJSDRPs preferred vehicle for accommodating growth. A Centers compact form is considerably more efficient than sprawl, providing opportunities for cost savings across a wide range of factors. Compact form also translates into significant land savings. A Centers development form and structure, designed to accommodate diversity, is also more flexible than single-use, single-purpose sprawl, allowing Centers to evolve and adapt over time, in response to changing conditions and markets. Centers promote community, protect the environment, provide enhanced cultural and aesthetic experiences, and offer residents a superior quality of life.Designated Centers are those that have been approved by the NJ State Planning Commission, while Proposed Centers are preliminary in nature and usually change upon Designation. Center locations were determined through a process called Cross-acceptance, in coordination with other state, county and local entities. Refer to the NJSDRP for further description of the geographic nature of Centers.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=BF6999D4-9601-11E1-BBA0-0003BA02A824",
+                                "id": 21,
+                                "lyr_id":"state_plan_centers"
+                            },
+                            "State Planning Areas": {
+                                "description": "Planning Areas of the NJ State Development and Redevelopment Plan (NJSDRP). The State Plans Statewide Policies are applied to the natural and built resources of the state through the designation of five Planning Areas. These Planning Areas reflect distinct geographic and economic units within the state and serve as an organizing framework for application of the Statewide Policies of the State Plan. Planning Areas are areas of land, not less than one square mile, that share certain conditions, such as population density, infrastructure systems, level of development, or environmental sensitivity. Planning Areas do not necessarily coincide with municipal or county boundaries, but define geographic areas that are suitable for common application of public policy. The State Plan anticipates continued growth throughout New Jersey in all Planning Areas. The character, location and magnitude of this growth vary among Planning Areas according to the specific character of the area. Each Planning Area has Policy Objectives that guide growth in the context of its unique qualities and conditions. The Policy Objectives also shape and define the application of the Statewide Policies in each Planning Area. Refer to the NJSDRP for further description of the geographic nature of Planning Areas.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=713E9E10-3E04-11E1-A8E5-0003BA02A824",
+                                "id": 22,
+                                "lyr_id":"state_planning_areas"
+                            },
+
+                            "Urban Enterprise Zones": {
+                                "description": "This polygon dataset represents the Urban Enterprise Zones (UEZ) that are found within 37 municipalities in the State of New Jersey. UEZss provide significant incentives and benefits to businesses that locate within these zones.New Jerseys Urban Enterprise (UEZ) Program, enacted in 1983, is in the Department of Community Affairs. The UEZ Program exists to foster an economic climate that revitalizes designated urban communities and stimulates their growth by encouraging businesses to develop and create private sector jobs through public and private investment.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=57A187EC-0574-11D8-A2B4-0003BA02A824",
+                                "id": 23,
+                                "lyr_id":"urban_ent_zones"
+                            },
+                            "Areas In Need of Redevelopment": {
+                                "description": "Areas in Need of Redevelopment. Areas in Need of Redevelopment are defined and mapped through the redevelopment process as defined and governed by constitutional, statutory, and regulatory requirements. These requirements are in turn molded by court decisions that affect the way the laws are applied.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=546E3E79-8548-4AE6-AA95-DD9AC961A68D",
+                                "id": 24,
+                                "lyr_id":"redevelop_areas"
+                            },
+                            "Areas In Need of Rehabilitation": {
+                                "description": "Areas in Need of Rehabilitation. Areas in Need of Rehabilitation are defined and mapped through the redevelopment process as defined and governed by constitutional, statutory, and regulatory requirements. These requirements are in turn molded by court decisions that affect the way the laws are applied.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=753C7063-16F8-4EF3-A1DA-AABB1FD65A34",
+                                "id": 25,
+                                "lyr_id":"rehab_areas"
+                            },
+                            "Brownfield Development Area (Outline)": {
+                                "description": "This is a graphical representation of the outline boundary for Brownfield Development Areas (BDA) in New Jersey.The data included in the layer enables GIS to map, as polygons, all current BDAs in New Jersey. A brownfield is any former or current commercial or industrial site that is currently vacant or underutilized and on which there has been, or there is suspected to have been, a discharge of contamination. Under the BDA approach, NJDEP works with selected communities affected by multiple brownfields to design and implement remediation and reuse plans for these properties simultaneously. The BDA approach enables remediation and reuse to occur in a coordinated fashion. In the process, we invite the various stakeholders, including owners of contaminated properties, potentially responsible parties, developers, community groups, technical experts for the local government and residents, and residents themselves, to participate in this cleanup and revitalization approach.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=BFA906B2-D475-471A-BBA3-FD232405BCF8",
+                                "id": 26,
+                                "lyr_id":"brownfield_outline"
+                            },
+                            "Brownfield Development Area (Block and Lots)": {
+                                "description": "Current Brownfield Development Areas (BDAs) in New Jersey. A brownfield is any former or current commercial or industrial site that is currently vacant or underutilized and on which there has been, or there is suspected to have been, a discharge of contamination. Under the BDA approach, NJDEP works with selected communities affected by multiple brownfields to design and implement remediation and reuse plans for these properties simultaneously. The BDA approach enables remediation and reuse to occur in a coordinated fashion. In the process, we invite the various stakeholders, including owners of contaminated properties, potentially responsible parties, developers, community groups, technical experts for the local government and residents, and residents themselves, to participate in this cleanup and revitalization approach.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=041191E2-3B27-4ED2-B34B-E9F7A16D161F",
+                                "id": 27,
+                                "lyr_id":"brownfield_lots"
+                            },
+                            "Highlands": {
+                                "description": "This dataset is an interpretation of the Highlands Preservation and Planning Area Boundary as described by the Highlands Water Protection and Planning Act of 2004. This dataset was created by utilizing the Highlands Parcel Base, the NJDEP Hydrography Layer for 2002 and the New Jersey Department of Transportation Local Road Files as references to the act description.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=141E10BA-2228-11DF-A53E-0003BA2C919",
+                                "id": 28,
+                                "lyr_id":"highlands_boundary"
+                            },
+                            "Pinelands Boundary": {
+                                "description": "New Jersey Pinelands Area Boundary and the Pinelands National Reserve Boundary.The original dataset was created by digitizing 68 photo quarterquads that were then appended together to create the boundary.The data set was updated to conform with the Pinelands Management Areas data set(PMAs) based of the NJOGIS parcel layer. The PMAs that are located within the Pinelands Area Boundary were dissolved to form the updated boundary. The PMAs that are located within the Pinelands National Reserve were dissolved to form the updated reserve boundary.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=E24065B2-6ED4-4A77-81F6-CC7C3F53ECE3",
+                                "id": 29,
+                                "lyr_id":"pinelands_boundary"
+                            },
+                            "Pinelands Management Areas": {
+                                "description": " Pinelands Management Area Boundaries in Southern New Jersey. Created manually by interpreting a textual document which described the boundary lines and drafting this information onto mylar using USGS photo quads as a base. In 1994 the data was digitized and converted to New Jersey State Plane NAD 83 Feet. The current geometry is not static and is prone to change.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=AA75A9C5-43D3-433C-88FE-00452A4311EF",
+                                "id": 30,
+                                "lyr_id":"pinelands_mgmt_area"
+                            },
+                            "Critical Environmental and Historic Sites": {
+                                "description": "This dataset contains the boundaries of Critical Environmental and Historic Sites (CEHS) of the NJ State Development and Redevelopment Plan (NJSDRP). CEHSs are areas, generally less than one square mile, which include one, or more, environmentally or historically sensitive features and are recognized by the State Planning Commission. CEHS locations were submitted by county and local entities. All sites submitted were accepted, with minimal requirement for documentation. Refer to the NJSDRP for further description of the geographic nature of CEHSs.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=292E23D8-3E04-11E1-A8E5-0003BA02A824",
+                                "id": 31,
+                                "lyr_id":"env_hist_sites"
+                            },
+                            "Delaware and Raritan Canal Comm. Review Zones": {
+                                "description": "Review Zones, that are subject to review and approval by the Delaware and Raritan (D&R) Canal Commission as defined in its Regulations for the Review Zone of the D&R Canal State Park, adopted August 2004 (N.J.A.C. 7:45). The Commission reviews development projects within its review zone for their impact on the following: 1.) storm drainage and water quality, 2.) stream corridors, 3.) visual and natural quality including historic impact, and 4.) traffic. The A Review Zone is the area within 1,000 feet on either side of the center-line of the canal except in Princeton Township where the west bank of Carnegie Lake shall be the boundary of Zone A and where the Raritan River is within 1,000 feet, its furthest bank being the boundary. The B Review Zone is based upon sub-watersheds in central New Jersey that impact the D&R Canal State Park.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=E446ABB8-2220-11DF-AF15-0003BA02A824",
+                                "id": 32,
+                                "lyr_id":"delrar_review_zones"
+                            },
+                            "Smart Growth Areas": {
+                                "description": "Boundaries of New Jerseys Smart Growth Areas. This metadata mainly describes the elements derived from the State Plan. See the metadata for the Pinelands Management Areas or the Meadowlands for specific information concerning their geographic areas.The Smart Growth Areas are a subset of the NJ State Development & Redevelopment Plan combined with growth areas of the NJ Pinelands Management Areas as well as some areas of the Meadowlands.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=9A383FDA-48DD-11E0-8822-0003BA2C919E",
+                                "id": 33,
+                                "lyr_id":"smart_growth"
+                            },
+                            "Watershed Management Areas": {
+                                "description": " U.S. Geological Survey (USGS) hydrologic-unit-code basins that delineates the extent of the DEP watershed management regions and areas to be used for the statewide watershed initiative.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=8CAA0CEC-2231-11DF-A53E-0003BA2C919E",
+                                "id": 34,
+                                "lyr_id":"wma_areas"
+                            },
+                            "Well Head Protection Areas (Community)": {
+                                "description": "A Well Head Protection Area (WHPA) is an area calculated around a Public Community Water Supply (PCWS) well in New Jersey that delineates the horizontal extent of groundwater captured by a well pumping at a specific rate over two-, five-, and twelve-year periods of time for unconfined wells. The confined wells have a fifty foot radius delineated around each well serving as the well head protection area to be controlled by the water purveyor in accordance with Safe Drinking Water Regulations (see NJAC 7:10-11.7(b)1). WHPA delineations are conducted in response to the Safe Drinking Water Act Amendments of 1986 and 1996 as part of the Source Water Area Protection Program (SWAP). The delineations are the first step in defining the sources of water to a public supply well. Within these areas, potential contamination will be assessed and appropriate monitoring will be undertaken as subsequent phases of the NJDEP SWAP.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=2AB942DB-222D-11DF-A53E-0003BA2C919E",
+                                "id": 35,
+                                "lyr_id":"wellhead_comm"
+                            },
+                            "Water Source Areas": {
+                                "description": "Source water areas for each active public (community and non-community) surface water intake. The surface water source water areas for all wells considered under the direct influence of surface water (GWUDI) are also included. A surface water source water area represents the surface ground area where water will flow overland past the intake location. The source water areas were delineated from the intake location or a controlling structure, such as a dam or weir, to the headwaters of all tributaries upstream of the intake. For more information on the surface water source water areas refer to http://www.nj.gov/dep/swap/.The source water assessment process determined the susceptibility (Low, Medium, or High) of each intake to 8 contaminant groups (Disinfection Byproduct (DBP) Precursors, Inorganics, Nutrients, Pathogens, Pesticides, Radionuclides, Radon, and Volatile Organic Compounds (VOCs)) which can also be linked to for geographical display.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=245FFFCC-2230-11DF-A53E-0003BA2C919E",
+                                "id": 36,
+                                "lyr_id":"water_source_areas"
+                            },
+                            "Well Head Protection Areas (Non-Community)": {
+                                "description": "A Well Head Protection Area for a Public Non-Community Water Supply Well (PNCWS) in New Jersey is a map area calculated around a Public Non-Community Water Supply well that delineates the horizontal extent of ground water captured by a well pumping at a specific rate over a two-, five-, and twelve-year period. GIS coverages are produced for each PNCWS well and for the set of all PNCWS wells in each county and for the state.",
+                                "njgin_url": "https://njgin.state.nj.us/NJ_NJGINExplorer/ShowMetadata.jsp?docId=01016676-60E8-44C1-B334-F6E8E88A5208",
+                                "id": 37,
+                                "lyr_id":"wellhead_noncomm"
+                            }
+                }
+            }
+            }
